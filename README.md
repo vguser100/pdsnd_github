@@ -4,10 +4,10 @@
 March 3, 2022
 
 ### Project Title
-Bikeshare
+Bikeshare Systems
 
 ### Description
-Make use of Python to explore data related to bike share systems for three major cities in the United States.
+Make use of Python to explore data related to bikeshare systems for three major cities in the United States.
 
 ### Files used
 Include the files used
