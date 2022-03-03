@@ -98,8 +98,7 @@ def load_data(city, month, day):
         # filter by month, if applicable
         if month != 'all':
             # use the index of the months list to get the corresponding month number
-            months = ['january', 'february', 'march', 'april', 'may', 'june']
-            month = months.index(month) + 1
+            month = MONTHS_LIST.index(month) + 1
   
             # filter by month to create the new dataframe
             df = df[df['month'] == month]
@@ -307,10 +306,10 @@ def main():
                 if raw_data.lower() in ['yes', 'y']:
                     print(df_org[x:x+5])
                 else:
-                    break
+                    break    
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')        
-        if restart.lower() != 'yes':
+        if restart.lower() not in ['yes', 'y']:
            break
 
 
