@@ -307,10 +307,10 @@ def main():
                 if raw_data.lower() in ['yes', 'y']:
                     print(df_org[x:x+5])
                 else:
-                    break
+                    break    
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')        
-        if restart.lower() != 'yes':
+        if restart.lower() not in ['yes', 'y']:
            break
 
 
