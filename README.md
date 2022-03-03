@@ -7,7 +7,7 @@ March 3, 2022
 Bikeshare Systems
 
 ### Description
-Make use of Python to explore data related to bikeshare systems for three major cities in the United States.
+Make use of Python to explore data related to bikeshare systems for three major cities in the United States-Chicago, New York, Washington.
 
 ### Files used
 Include the files used
